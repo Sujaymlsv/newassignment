@@ -1,6 +1,7 @@
- hosts: 54.166.250.46
-  become: true
-  tasks:
+---
+ - hosts: all
+   become: true
+   tasks:
           - name: Update apt cache
             apt:
                     update_cache: yes
