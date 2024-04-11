@@ -1,5 +1,5 @@
 ---
- - hosts: 34.226.207.69
+ - hosts: 54.156.50.246
    become: true
    tasks:
           - name: Update apt cache
